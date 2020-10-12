@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         button_get_started.setOnClickListener{
             val leagueIntent = Intent(this, LeagueActivity::class.java)
-            startActivity(leagueIntent);
+            startActivity(leagueIntent)
         }
     }
 }
